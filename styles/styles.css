@@ -256,3 +256,10 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+
+main .section.dark {
+  background-color: var(--text-color);
+  color: white;
+  margin: 0;
+  padding: 40px 0;
+}
