@@ -1,4 +1,3 @@
-
 /*
  * Video Block
  * Show a video referenced by a link
