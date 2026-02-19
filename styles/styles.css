@@ -12,6 +12,7 @@
 
 :root {
   /* colors */
+  --overlay-background-color: #f5f5f5;
   --background-color: white;
   --light-color: #f8f8f8;
   --dark-color: #505050;
@@ -252,6 +253,13 @@ main > .section:first-of-type {
 main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
+  margin: 0;
+  padding: 40px 0;
+}
+
+main .section.dark {
+  background-color: var(--text-color);
+  color: white;
   margin: 0;
   padding: 40px 0;
 }
